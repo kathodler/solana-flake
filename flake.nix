@@ -1,9 +1,9 @@
 {
   description = "Solana";
   inputs = {
-    solana-bpf-tools.url = "path:./solana-bpf-tools";
-    solana-cli.url = "path:./solana-cli";
-    cargo-build-bpf.url = "path:./cargo-build-bpf";
+    solana-bpf-tools.url = "path:solana-bpf-tools";
+    solana-cli.url = "path:solana-cli";
+    cargo-build-bpf.url = "path:cargo-build-bpf";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
   outputs = inputs: with import inputs.nixpkgs { 
